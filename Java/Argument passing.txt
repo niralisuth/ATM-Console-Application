@@ -1,0 +1,32 @@
+package primeNumber;
+
+import java.util.Scanner;
+
+	class PM{
+	    int n;
+	    void getData(int i) {
+	    n=i;
+	        
+	    }
+	    void putData() {
+	    int rev=0;
+	    
+	    while (n>0){
+	        rev = rev*10+(n%10);
+	        n = n/10;
+	   
+	    
+	
+	    }System.out.println("rev num is : " + rev);
+	    }
+	public static void main(String b[]) {
+	int m;
+	
+	    PM aa = new PM();
+	    Scanner sc = new Scanner(System.in);
+	    System.out.println("Enter the num: ");
+	    m = sc.nextInt();
+	    aa.getData(m);
+	    aa.putData();
+}}
+	    

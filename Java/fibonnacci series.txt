@@ -1,0 +1,64 @@
+fibonacci series
+
+1) To print limited no. of terms
+
+package primeNumber;
+
+import java.util.Scanner;
+
+public class PM {
+
+	public static void main(String[] args) {
+		int x = 0, y=1,z=0,n,count =0;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many value do you need ? : ");
+		n = sc.nextInt();
+		
+		while(count<=n) {
+			System.out.println("value : "+ z);
+			count=count+1;
+			x=y;
+			y=z;
+			z=x+y;
+			
+		}count++;
+		
+
+
+	}}
+
+
+2) to print max value
+
+package primeNumber;
+
+import java.util.Scanner;
+
+public class PM {
+
+	public static void main(String[] args) {
+		int x = 0, y=1,z=0,n;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter max value : ");
+		n = sc.nextInt();
+		
+		while(z<=n) {
+			System.out.println("value : "+ z);
+			x=y;
+			y=z;
+			z=x+y;
+		}
+		
+
+
+	}}
+		
+
+
+
+
+
+
+

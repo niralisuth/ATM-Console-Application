@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class switche {
+    public static void main(String args[]){
+        int a,b,ch;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : " );
+        a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        b = sc.nextInt();
+        
+        
+        System.out.println("Enter your choice 1 -> Add 2-> Substract 3-> Multiply 4 -> Divide Enter your choice: ");
+        ch = sc.nextInt();
+        
+        switch (ch){
+            case 1: System.out.println ("Addition : " + (a+b));
+            break;
+            case 2: System.out.println ("Substract : " + (a-b));
+            break;
+            case 3: System.out.println ("Multiply : " + (a*b));
+            break;
+            case 4: System.out.println ("Divide : " + (a/b));
+            break;
+            default:
+            System.out.println("Invalid Choice");
+            break;
+        }
+    }
+}

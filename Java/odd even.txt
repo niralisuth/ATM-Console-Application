@@ -1,0 +1,52 @@
+
+sum of even number and product of odd num
+
+example ;
+
+4635 
+sum = 4+6 = 10
+pro = 3*5 = 15
+
+
+
+
+package primeNumber;
+
+import java.util.Scanner;
+
+public class PM {
+
+	public static void main(String[] args) {
+		
+		int n, sum =0, pro=1;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number : ");
+		
+		n = sc.nextInt();
+		int num;
+		
+		while (n>0) {
+			num = n % 10;
+			if (num%2==0) {
+				sum = num +sum;
+			}
+			
+			
+			else {
+				pro = pro * num;}
+				
+			
+			
+			n = n/10;
+			
+		}
+		
+		System.out.println("Sum of num : " + sum);
+		System.out.println("Pro of num : " + pro);
+		
+		
+		
+		
+	}
+	}

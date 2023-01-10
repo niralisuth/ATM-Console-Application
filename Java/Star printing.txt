@@ -1,0 +1,82 @@
+Star Printing
+
+
+
+
+import java.util.Scanner;
+
+class star{
+    public static void main(String args[]){
+        
+        int i,n,j;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        n = sc.nextInt();
+        
+        for(i=1;i<=n;i++){
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+    }
+}
+package primeNumber;
+
+import java.util.Scanner;
+
+public class PM {
+
+	public static void main(String[] args) {
+		
+
+		        int i=1,n,j;
+		        
+		        Scanner sc = new Scanner(System.in);
+		        System.out.println("Enter the number : ");
+		        n = sc.nextInt();
+		        
+		        for( ;n>=1;n--){
+		            for(j=1;j<=n;j++){
+		                System.out.print(i+j);
+		            }
+		            i++;
+		            
+		            System.out.println();
+		        }
+		        
+		    }
+		}
+
+
+
+package primeNumber;
+
+import java.util.Scanner;
+
+public class PM {
+
+	public static void main(String[] args) {
+		
+int i,n,j,s;
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        n = sc.nextInt();
+        
+        for(i=1;i<=n;i++)
+{
+    for(s=1;s<=n-i;s++){
+        System.out.print(" ");
+    }
+    for(j=1;j<=i;j++){
+        System.out.print(i+j);
+    }System.out.println();  
+  
+}        
+     
+        }
+        
+    }

@@ -1,0 +1,24 @@
+class PrimeNumber{
+
+	public void PrimeNumber (){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("input:");
+		Integer number = sc.nextInt();
+		Boolean primeornot = false;
+			for(int i=2 ;i<= number/2;i++) {
+				
+				if(number% i == 0) {
+				
+					primeornot =true;
+					break;
+					
+				}
+			}
+			if(primeornot == false) {
+				System.out.println("number is  prime");
+			}else {
+				System.out.println("number is not prime");
+			}
+		}
+		
+}

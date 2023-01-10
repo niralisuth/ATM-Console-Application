@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?p2f version='1.0.0'?>
+<p2f version='1.0.0'>
+  <ius size='17'>
+    <iu id='org.eclipse.buildship.feature.group' name='Buildship: Eclipse Plug-ins for Gradle' version='3.1.5.v20210113-0929'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.eclemma.feature.feature.group' name='EclEmma Java Code Coverage' version='3.1.5.202109082215'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='epp.package.java' name='Eclipse IDE for Java Developers' version='4.23.0.20220310-1200'>
+      <repositories size='4'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/technology/epp/packages/latest/'/>
+        <repository location='https://download.eclipse.org/technology/epp/packages/2022-03/202203101200'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.jdt.feature.group' name='Eclipse Java Development Tools' version='3.18.1100.v20220308-0310'>
+      <repositories size='4'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/eclipse/updates/4.23'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.platform.feature.group' name='Eclipse Platform' version='4.23.0.v20220308-0722'>
+      <repositories size='4'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/eclipse/updates/4.23'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.rcp.feature.group' name='Eclipse RCP' version='4.23.0.v20220308-0722'>
+      <repositories size='4'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/eclipse/updates/4.23'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.egit.feature.group' name='Git integration for Eclipse' version='6.1.0.202203080745-r'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.jgit.feature.group' name='Java implementation of Git' version='6.1.0.202203080745-r'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.m2e.feature.feature.group' name='M2E - Maven Integration for Eclipse (includes Incubating components)' version='1.20.1.20220227-1319'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.m2e.lemminx.feature.feature.group' name='M2E - POM Editor using LemMinX language server (includes Incubating components)' version='1.18.4.20220127-1634'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.m2e.logback.feature.feature.group' name='M2E - SLF4J over Logback Logging (optional)' version='1.17.2.20211002-1029'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.epp.mpc.feature.group' name='Marketplace Client' version='1.9.3.v20220121-1317'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.mylyn.wikitext.editors_feature.feature.group' name='Mylyn WikiText Editors' version='3.0.42.202201072301'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.oomph.setup.feature.group' name='Oomph Setup' version='1.25.0.v20220413-1200'>
+      <repositories size='2'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/oomph/updates/milestone/latest'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.tips.feature.feature.group' name='Tip of the Day UI Feature' version='0.2.1700.v20220220-0850'>
+      <repositories size='4'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/eclipse/updates/4.23'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.tm.terminal.feature.feature.group' name='TM Terminal' version='10.6.0.202201121907'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.wildwebdeveloper.xml.feature.feature.group' name='Wild Web Developer XML tools' version='0.13.3.202202030858'>
+      <repositories size='3'>
+        <repository location='https://download.eclipse.org/releases/latest'/>
+        <repository location='https://download.eclipse.org/releases/2022-03'/>
+        <repository location='https://download.eclipse.org/releases/2022-03/202203161000'/>
+      </repositories>
+    </iu>
+  </ius>
+</p2f>

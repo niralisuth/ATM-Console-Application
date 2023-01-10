@@ -1,0 +1,13 @@
+In java, 
+
+System.out.println 
+
+S should be capital.
+println means print line.
+println when we want it to be on new line.
+print when we want it to be on same line.
+
+Comments :
+
+// for single line Comment.
+/*for long line comments */
